@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DatabaseHandler"
+    android:background="@color/colorBackground">
+
+    <ListView
+        android:id="@+id/advice_list"
+        android:layout_width="wrap_content"
+        android:layout_height="625dp"
+        android:background="#C8C6A7"
+        android:divider="@color/colorBackground"
+        android:dividerHeight="10dp"></ListView>
+
+    <TextView
+        android:text="@string/delInfo"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
